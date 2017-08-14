@@ -1,14 +1,12 @@
 # Utiliza álgebra booleana para hacer un refactoring de este código
 # Para verificar la respuestas, puedes variar los valores de a y b.
 
-a = true
-b = true
+puts "Ingrese los Valores de A: y B:"
+a = gets.chomp
+b = gets.chomp
 
-if a == true && b == true
+if a == b 
  puts 'Lograste A y B!'
- elsif if a == true 
- puts 'Lograste A! Pero no B!'
 else
   puts 'No lograste A ni B!'
- end
 end

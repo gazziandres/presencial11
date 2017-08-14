@@ -12,7 +12,8 @@ i=0
 	puts i if (990 % i).zero?
 end
 
-while i <= 990
-	puts i if (990 % i).zero?
-	i += 1
+i = 1
+  while i <= 990
+    puts i if (990 % i).zero?
+    i += 1
 end
